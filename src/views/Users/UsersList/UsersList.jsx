@@ -1,11 +1,13 @@
 import { Button, Card } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
+import './UsersList.scss';
+
 export const UsersList = ({ users }) => {
   const navigate = useNavigate();
 
   return (
-    <div className='users__list'>
+    <div className='usersList'>
       {users?.map((user) => {
         return (
           <Card key={user.id} style={{ width: '18rem' }}>

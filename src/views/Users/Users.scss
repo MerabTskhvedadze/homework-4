@@ -20,11 +20,4 @@
     padding: 10px 15px;
     margin-bottom: 30px;
   }
-
-  &__list {
-    padding: 15px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-  }
 }
