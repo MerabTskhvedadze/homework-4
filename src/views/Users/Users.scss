@@ -1,3 +1,15 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+
+  &__spinner {
+    width: 250px !important;
+    height: 250px !important;
+    border-width: 20px !important;
+  }
+}
+
 .users {
   margin-top: 30px;
   display: flex;
@@ -7,5 +19,12 @@
   &__input {
     padding: 10px 15px;
     margin-bottom: 30px;
+  }
+
+  &__list {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
   }
 }
